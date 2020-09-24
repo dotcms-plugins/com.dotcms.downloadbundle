@@ -1,5 +1,7 @@
 # README
 
+![Screen Shot 2020-09-24 at 2 35 16 PM](https://user-images.githubusercontent.com/934364/94185830-d109dc80-fe73-11ea-962d-ae525f4a8a57.png)
+
 When creating and downloaing a large bundle built in dotCMS, the http request can often time out.  This is because a large bundle can take a long time to generate and load balancers see no activity and will shut down the "dead" connection.
 
 This plugin intercepts the call to generate a bundle and run the bundle generation in the background.  Once this process is done, the plugin will notify the user that their bundle is ready for download, whereby the user can click the link and download the resulting bundle.
