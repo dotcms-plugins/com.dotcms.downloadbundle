@@ -1,0 +1,6 @@
+#Thu Sep 24 13:10:07 EDT 2020
+Bundle-Vendor=dotCMS
+Bundle-Activator=com.dotmarketing.osgi.webinterceptors.Activator
+Bundle-Description=dotCMS - Osgi Web Interceptors example
+Import-Package=*;version\=0
+Bundle-DocURL=https\://dotcms.com/
